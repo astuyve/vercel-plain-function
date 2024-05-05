@@ -16,7 +16,5 @@ export default function (_request: VercelRequest, response: VercelResponse) {
     processUptime: process.uptime(),
   }
 
-  response.status(200).json({
-    resp 
-  });
+  response.status(200).json(resp);
 }
