@@ -13,7 +13,6 @@ export default function (_request: VercelRequest, response: VercelResponse) {
     handlerRunTime,
     staticInitTime,
     coldStartResult,
-    env: process.env, //Dont do this if you have secrets
     processUptime: process.uptime(),
   }
 
