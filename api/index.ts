@@ -1,5 +1,6 @@
 const staticInitTime = Date.now();
 let isColdStart = true;
+export const dynamic = 'force-dynamic'; // static by default, unless reading the request
 import type {VercelRequest, VercelResponse} from '@vercel/node';
 
 export default function (_request: VercelRequest, response: VercelResponse) {
